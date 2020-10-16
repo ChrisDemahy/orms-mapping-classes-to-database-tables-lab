@@ -66,6 +66,8 @@ describe "Student" do
       expect(student).to be_a(Student)
       expect(student.name).to eq("Josh")
       expect(student.grade).to eq("9th")
+      
     end
   end
 end
+
